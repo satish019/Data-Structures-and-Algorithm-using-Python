@@ -1,8 +1,7 @@
-# Taking User Input Base in Variable b
-b = float(input('Enter the Base : '))
-
-# Taking User Input Base in Variable b
-e = float(input('Enter the Exponent : '))
-
-# Base b raised to power of Exponent e is presented as b**e
-print (b**e)
+x = int(input("Input :  "))
+if x <= 5000:
+    print("Bring the plane down to 1000 ft")
+elif x == 1000: 
+    print("Safe to land")
+else :
+    print("Turn around")
